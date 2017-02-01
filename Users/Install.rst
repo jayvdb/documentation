@@ -16,7 +16,8 @@ Installing Python and Pip
 In order to use coala, you need Python installed. In order to do so, you should
 install Python >= 3.4 from `here <https://www.python.org/downloads/>`_.
 
-The easiest way to install coala is using pip (Pip Installs Packages).
+The easiest way to install coala is using ``pip`` (https://pip.pypa.io/).
+
 If you don't already have pip, you can install it like described in the
 `pip installation guide <https://pip.pypa.io/en/stable/installing.html>`_.
 
@@ -209,6 +210,20 @@ installed. On Windows, you can get many with ``nuget``
 dependencies (http://brew.sh/). These dependencies require you to have
 `the repository <https://github.com/coala/coala-bears>`__
 cloned locally.
+
+Python Dependencies
+~~~~~~~~~~~~~~~~~~~
+
+coala provides many bears that use linters written in Python. In
+order for them to be usable in coala 0.10+, you need to install them
+via ``pip``, while in the project directory:
+
+::
+
+    $ pip3 install -r bear-requirements.txt
+
+Prior to coala 0.10, all of these dependencies were automatically installed
+even if the user did not want to use the bears that depended on them.
 
 JS Dependencies
 ~~~~~~~~~~~~~~~
