@@ -40,6 +40,7 @@ Welcome to the coala documentation!
    :caption: For Developers
    :hidden:
 
+   coala Development Guide <Developers/index>
    coala API Documentation <https://api.coala.io>
 
 
@@ -109,7 +110,7 @@ else than just writing your algorithm!
 
 .. seealso::
 
-  Check out :doc:`Writing Bears <Developers/Writing_Bears>` for more
+  Check out :doc:`coala Development Guide <Developers/index>` for more
   information on this.
 
 To programmatically access coala's functionality, use the ``--json`` option.
