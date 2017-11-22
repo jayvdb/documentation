@@ -21,7 +21,7 @@ of code again and again, which is unnecessary.
 
 The patch queue automatically verifies all patches meet these criteria.
 You can run the same verification before submitting your patch by
-:doc:`adding CI to your Fork <Developers/Adding_CI>`
+:doc:`adding CI to your Fork <Adding_CI>`
 
 Actually Writing a Test
 -----------------------
