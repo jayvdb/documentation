@@ -19,6 +19,10 @@ A patch will not be accepted unless there is a 100% branch coverage.
 Redundant tests are a waste of effort because you are testing the same piece
 of code again and again, which is unnecessary.
 
+The patch queue automatically verifies all patches meet these criteria.
+You can run the same verification before submitting your patch by
+:doc:`adding CI to your Fork <Developers/Adding_CI>`
+
 Actually Writing a Test
 -----------------------
 
@@ -213,3 +217,6 @@ the coala root folder using ``pytest``.
         def test_case1(self):
             # A test method. Put your test code here.
             pass
+
+
+
