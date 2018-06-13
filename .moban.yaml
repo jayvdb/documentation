@@ -16,7 +16,7 @@ configuration:
   configuration_dir: ../coala-mobans/
 targets:
   - requirements.txt: requirements.txt.jj2
-  - netlify.toml: docs/netlify.toml
+  - netlify.toml: docs/netlify.toml.jj2
 copy:
   - docs-requirements.txt: docs/docs-requirements.txt
   - runtime.txt: runtime.txt
